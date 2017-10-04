@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_BUILD_TYPE=Release;-DBUILD_SHARED_LIBS:BOOL=OFF;-DCMAKE_INSTALL_PREFIX:PATH=/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest;-GUnix Makefiles;/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest/src/gtest-master'
