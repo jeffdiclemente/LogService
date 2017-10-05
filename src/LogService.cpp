@@ -2,7 +2,7 @@
 
 namespace us { namespace logservice {
 
-// out of line virtual destructor
+// non-inline virtual destructor required for correct RTTI
 LogService::~LogService() {}
 
 } // namespace logservice
