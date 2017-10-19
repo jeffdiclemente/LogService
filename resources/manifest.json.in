@@ -1,1 +1,1 @@
-{ "bundle.name" : "org_cppmicroservices_logservice", "bundle.version" : "@LogService_VERSION@" }
+{ "bundle.symbloic_name" : "org_cppmicroservices_logservice", "bundle.version" : "@LogService_VERSION@" }
