@@ -4,7 +4,7 @@
 
 #include <future>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 LogServiceImpl::LogServiceImpl(std::shared_ptr<LogReaderServiceImpl> reader) : _log(reader)
 {
@@ -43,4 +43,4 @@ void LogServiceImpl::SendLogEvent(LogEntry&& entry)
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices

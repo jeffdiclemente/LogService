@@ -10,7 +10,7 @@
 #include <mutex>
 #include <forward_list>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 class LogReaderServiceImpl : public LogReaderService
 {
@@ -32,6 +32,6 @@ private:
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_READER_SERVICE_IMPL_H__

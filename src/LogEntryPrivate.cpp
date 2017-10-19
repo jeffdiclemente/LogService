@@ -2,10 +2,10 @@
 #include "LogEntry.h"
 #include "LogEntryPrivate.h"
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 
-LogEntryPrivate::LogEntryPrivate(Bundle* bundle,
+LogEntryPrivate::LogEntryPrivate(Bundle bundle,
                             const std::exception_ptr ex,
                             const SeverityLevel& level,
                             const std::string& message,
@@ -23,4 +23,4 @@ LogEntryPrivate::LogEntryPrivate(Bundle* bundle,
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices

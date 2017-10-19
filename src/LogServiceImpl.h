@@ -4,13 +4,13 @@
 #include "LogEntry.h"
 #include "LogService.h"
 #include "LogReaderServiceImpl.h"
-#include "usServiceReference.h"
+#include "cppmicroservices/ServiceReference.h"
 
 #include <exception>
 #include <memory>
 #include <string>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 class LogServiceImpl : public LogService
 {
@@ -31,6 +31,6 @@ private:
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_SERVICE_IMPL_H__

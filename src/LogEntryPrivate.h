@@ -3,12 +3,12 @@
 
 #include "LogEntry.h"
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 class LogEntryPrivate
 {
 public:
-  LogEntryPrivate(Bundle* bundle,
+  LogEntryPrivate(Bundle bundle,
               const std::exception_ptr ex,
               const SeverityLevel& level,
               const std::string& message,
@@ -31,6 +31,6 @@ private:
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_ENTRY_IMPL_H__

@@ -2,7 +2,7 @@
 #include "LogReaderService.h"
 #include "LogReaderServiceImpl.h"
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 LogReaderServiceImpl::LogReaderServiceImpl(std::shared_ptr<LogEntryStore> store) : _log(store)
 {
@@ -47,4 +47,4 @@ bool operator==(const LogListener& l1, const LogListener& l2)
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices

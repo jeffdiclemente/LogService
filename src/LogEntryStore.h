@@ -8,7 +8,7 @@
 #include <deque>
 #include <vector>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 class LogEntryStore
 {
@@ -35,7 +35,7 @@ private:
   bool _log_debug_entries;
 };
 
-} // namespace us
+} // namespace cppmicroservices
 
 } // namespace logservice
 

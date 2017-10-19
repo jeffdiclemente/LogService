@@ -2,7 +2,7 @@
 #include "LogEntry.h"
 #include "LogEntryPrivate.h"
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 LogEntry::LogEntry(Bundle* bundle,
                     const std::exception_ptr ex,
@@ -103,4 +103,4 @@ std::ostream& operator<<(std::ostream& os, const LogEntry& le)
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices

@@ -1,7 +1,7 @@
 
 #include "LogEntryStore.h"
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 void LogEntryStore::insert(const LogEntry& entry)
 {
@@ -12,6 +12,6 @@ void LogEntryStore::insert(const LogEntry& entry)
 
 std::vector<LogEntry> LogEntryStore::entries() { return std::vector<LogEntry>(_store.begin(), _store.end()); }
 
-} // namespace us
+} // namespace cppmicroservices
 
 } // namespace logservice

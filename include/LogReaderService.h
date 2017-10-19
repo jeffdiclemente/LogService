@@ -8,13 +8,14 @@
 
 #include <vector>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 class US_LogService_EXPORT LogReaderService
 {
 public:
   virtual ~LogReaderService();
 
+  // @todo: fix Add/RemoveLogListener, we can't remove based on LogListener object.
   virtual void AddLogListener(LogListener listener) = 0;
   virtual std::vector<LogEntry> GetLog() = 0;
   virtual void RemoveLogListener(LogListener listener) = 0;
@@ -22,6 +23,6 @@ public:
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_READER_SERVICE_H__

@@ -1,4 +1,0 @@
-/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest/src/gtest-master-build/googlemock/gtest/CMakeFiles/gtest.dir
-/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest/src/gtest-master-build/googlemock/CMakeFiles/gmock.dir
-/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest/src/gtest-master-build/googlemock/gtest/CMakeFiles/gtest_main.dir
-/home/dragon/Dev/mathworks/CppMicroServices_development/extensions/logservice/test/external/gtest/src/gtest-master-build/googlemock/CMakeFiles/gmock_main.dir

@@ -3,12 +3,12 @@
 
 #include "usLogServiceExport.h"
 
-#include "usServiceReference.h"
+#include "cppmicroservices/ServiceReference.h"
 
 #include <exception>
 #include <string>
 
-namespace us { namespace logservice {
+namespace cppmicroservices { namespace logservice {
 
 enum class SeverityLevel : unsigned int
 {
@@ -32,6 +32,6 @@ public:
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_SERVICE_H__

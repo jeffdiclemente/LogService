@@ -4,9 +4,9 @@
 
 #include "usILogServiceExport.h"
 
-#include "Bundle.h"
+#include "cppmicroservices/Bundle.h"
+#include "cppmicroservices/ServiceReference.h"
 #include "LogService.h"
-#include "ServiceReference.h"
 
 #include <exception>
 #include <memory>
@@ -20,7 +20,7 @@ class LogEntryPrivate;
 class US_LogService_EXPORT LogEntry
 {
 public:
-  LogEntry(Bundle* bundle,
+  LogEntry(Bundle bundle,
             const std::exception_ptr ex,
             const SeverityLevel& level,
             const std::string& message,
@@ -30,7 +30,7 @@ public:
   LogEntry(const LogEntry&);
   LogEntry& operator=(const LogEntry&) = delete;
 
-  virtual std::shared_ptr<Bundle> GetBundle() const;
+  virtual Bundle GetBundle() const;
   virtual std::exception_ptr GetException() const;
   virtual SeverityLevel GetLevel() const;
   virtual std::string GetMessage() const;
@@ -49,6 +49,6 @@ US_LogService_EXPORT std::ostream& operator<<(std::ostream& os, const LogEntry&)
 
 } // namespace logservice
 
-} // namespace us
+} // namespace cppmicroservices
 
 #endif // LOG_ENTRY_H__
